@@ -1,0 +1,22 @@
+Package: ghapi
+Type: Package
+Title: Github API R package
+Version: 0.1.0
+Author: Novica Nakov
+Maintainer: Novica Nakov <nnovica@gmail.com>
+Description: Github api package build during an job interview process.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr,
+    tibble,
+    tidyr,
+    httr,
+    jsonlite,
+    logger,
+    rlang
+RoxygenNote: 7.2.2

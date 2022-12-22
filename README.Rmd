@@ -1,0 +1,30 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ghapi package
+
+This is a small package that was build during a job interview process.
+
+It can do the following things;
+
+* Token authentication;
+
+* Listing all repositories which the authenticated user has access to;
+
+* Updating the description of a repository;
+
+* Listing usernames of collaborators for a repository;
+
+* Adding collaborators to a repository.
